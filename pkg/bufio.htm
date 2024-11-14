@@ -321,7 +321,7 @@ fmt.Printf(&#34;%d\n&#34;, count)</pre>
     <p>Bytes方法返回最近一次Scan调用生成的token。底层数组指向的数据可能会被下一次Scan的调用重写。</p>
     <h4 id="Scanner.Text">func (*Scanner) <a title="View Source" href="https://github.com/golang/go/blob/master/src/bufio/scan.go?name=release#100">Text</a> <a class="permalink" href="#pkg-index">&para;</a></h4>
     <pre class="funcdecl">func (s *<a href="#Scanner">Scanner</a>) Text() <a href="builtin.htm#string">string</a></pre>
-    <p>Bytes方法返回最近一次Scan调用生成的token，会申请创建一个字符串保存token并返回该字符串。</p>
+    <p>Text方法返回最近一次Scan调用生成的token，会申请创建一个字符串保存token并返回该字符串。</p>
     <h4 id="Scanner.Err">func (*Scanner) <a title="View Source" href="https://github.com/golang/go/blob/master/src/bufio/scan.go?name=release#84">Err</a> <a class="permalink" href="#pkg-index">&para;</a></h4>
     <pre class="funcdecl">func (s *<a href="#Scanner">Scanner</a>) Err() <a href="builtin.htm#error">error</a></pre>
     <p>Err返回Scanner遇到的第一个非EOF的错误。</p>
